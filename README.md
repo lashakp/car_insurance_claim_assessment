@@ -125,7 +125,7 @@ Usage
 
 Run the Pipeline:
 
-python untitled31.py
+python car-insurance-claim-prediction.py
 
 This executes:
 
@@ -266,21 +266,6 @@ Contributing
 
 
 
-
-
-Fork the repository.
-
-
-
-Create a feature branch (git checkout -b feature/your-feature).
-
-
-
-Commit changes (git commit -m "Add your feature").
-
-
-
-Push to the branch (git push origin feature/your-feature).
 
 
 
