@@ -102,7 +102,7 @@ car-insurance-claim-prediction/
 ├── plots/randomforest/              # Random Forest evaluation plots
 ├── plots/logreg/                    # Logistic Regression evaluation plots
 ├── plots/catboost/                  # CatBoost evaluation plots
-├── untitled31.py                    # Main script
+├── car-insurance-claim-prediction.py.py                    # Main script
 └── README.md                        # This file
 
 Installation
@@ -277,12 +277,32 @@ Monitor data drift in production.
 
 Contributing
 
+Contributing
 
 
+
+
+
+Fork the repository.
+
+
+
+Create a feature branch 
+
+
+
+Commit changes 
+
+
+
+Push to the branch 
 
 
 
 Open a pull request.
+
+
+
 
 License
 
