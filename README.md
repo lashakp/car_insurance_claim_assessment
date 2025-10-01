@@ -4,6 +4,19 @@ Overview
 
 This project implements a machine learning pipeline to predict car insurance claims based on the Car_Insurance_Claim.csv dataset. The pipeline includes data loading, exploratory data analysis (EDA), preprocessing, feature engineering, model training with multiple algorithms (Logistic Regression, Random Forest, CatBoost), evaluation, and deployment via a Gradio web interface. The goal is to predict the binary OUTCOME (0: no claim, 1: claim) with high F1-score and ROC-AUC, addressing class imbalance and ensuring reproducibility.
 
+
+Refactor: Separate Gradio app from training script, update prediction input and metrics
+
+- Separated Gradio app from main training script; prediction UI and logic now in app.py
+- Added vehicle_ownership to Gradio UI and prediction function
+- Removed vehicle_type from UI and prediction
+- Mapped vehicle_year to numeric in prediction to match training
+- Lowercased/stripped categorical inputs for consistency
+- Fixed leaderboard metrics key matching in app
+- Save and display CV Mean F1 in metrics
+- Removed share=True from Gradio launch (runs locally)
+- Updated README with new usage instructions for app.py
+
 Features
 
 
