@@ -1,0 +1,485 @@
+2025-10-05 10:19:53,143 [INFO] Raw data loaded with shape: (10000, 19)
+2025-10-05 10:19:53,550 [INFO] Evaluating model: RandomForest - Baseline
+2025-10-05 10:20:00,230 [INFO] Train Accuracy: 0.9990, Test Accuracy: 0.8060
+2025-10-05 10:20:00,231 [INFO] Train Precision: 0.9980, Test Precision: 0.7050
+2025-10-05 10:20:00,232 [INFO] Train Recall: 0.9988, Test Recall: 0.6555
+2025-10-05 10:20:00,233 [INFO] Train F1: 0.9984, Test F1: 0.6793
+2025-10-05 10:20:00,234 [INFO] Specificity (Test): 0.8747, ROC-AUC (Test): 0.8521
+2025-10-05 10:20:00,235 [INFO] CV F1 Mean: 0.6999 ± 0.0207
+2025-10-05 10:20:04,128 [INFO] Evaluating model: RandomForest - SMOTE (Untuned)
+2025-10-05 10:20:13,293 [INFO] Train Accuracy: 0.9991, Test Accuracy: 0.8040
+2025-10-05 10:20:13,301 [INFO] Train Precision: 0.9987, Test Precision: 0.6911
+2025-10-05 10:20:13,302 [INFO] Train Recall: 0.9995, Test Recall: 0.6778
+2025-10-05 10:20:13,303 [INFO] Train F1: 0.9991, Test F1: 0.6844
+2025-10-05 10:20:13,304 [INFO] Specificity (Test): 0.8616, ROC-AUC (Test): 0.8534
+2025-10-05 10:20:13,304 [INFO] CV F1 Mean: 0.8641 ± 0.0662
+2025-10-05 10:20:39,562 [INFO] Evaluating model: RandomForest - Tuned (No SMOTE)
+2025-10-05 10:21:11,663 [INFO] Train Accuracy: 0.8862, Test Accuracy: 0.8230
+2025-10-05 10:21:11,664 [INFO] Train Precision: 0.8381, Test Precision: 0.7249
+2025-10-05 10:21:11,665 [INFO] Train Recall: 0.7893, Test Recall: 0.7018
+2025-10-05 10:21:11,666 [INFO] Train F1: 0.8130, Test F1: 0.7131
+2025-10-05 10:21:11,667 [INFO] Specificity (Test): 0.8784, ROC-AUC (Test): 0.8711
+2025-10-05 10:21:11,668 [INFO] CV F1 Mean: 0.7317 ± 0.0215
+2025-10-05 10:21:41,319 [INFO] Evaluating model: RandomForest - SMOTE + Tuned
+2025-10-05 10:22:03,734 [INFO] Train Accuracy: 0.9357, Test Accuracy: 0.8200
+2025-10-05 10:22:03,735 [INFO] Train Precision: 0.9320, Test Precision: 0.7001
+2025-10-05 10:22:03,735 [INFO] Train Recall: 0.9399, Test Recall: 0.7448
+2025-10-05 10:22:03,736 [INFO] Train F1: 0.9359, Test F1: 0.7218
+2025-10-05 10:22:03,736 [INFO] Specificity (Test): 0.8543, ROC-AUC (Test): 0.8687
+2025-10-05 10:22:03,737 [INFO] CV F1 Mean: 0.8699 ± 0.0512
+2025-10-05 10:22:04,968 [INFO] Evaluating model: LogReg - Baseline
+2025-10-05 10:22:05,828 [INFO] Train Accuracy: 0.8456, Test Accuracy: 0.8315
+2025-10-05 10:22:05,829 [INFO] Train Precision: 0.7665, Test Precision: 0.7354
+2025-10-05 10:22:05,830 [INFO] Train Recall: 0.7294, Test Recall: 0.7225
+2025-10-05 10:22:05,830 [INFO] Train F1: 0.7475, Test F1: 0.7289
+2025-10-05 10:22:05,832 [INFO] Specificity (Test): 0.8813, ROC-AUC (Test): 0.8836
+2025-10-05 10:22:05,833 [INFO] CV F1 Mean: 0.7411 ± 0.0167
+2025-10-05 10:22:06,500 [INFO] Evaluating model: LogReg - Weighted
+2025-10-05 10:22:07,222 [INFO] Train Accuracy: 0.8206, Test Accuracy: 0.7995
+2025-10-05 10:22:07,222 [INFO] Train Precision: 0.6688, Test Precision: 0.6395
+2025-10-05 10:22:07,223 [INFO] Train Recall: 0.8468, Test Recall: 0.8262
+2025-10-05 10:22:07,224 [INFO] Train F1: 0.7473, Test F1: 0.7209
+2025-10-05 10:22:07,225 [INFO] Specificity (Test): 0.7873, ROC-AUC (Test): 0.8836
+2025-10-05 10:22:07,226 [INFO] CV F1 Mean: 0.7447 ± 0.0067
+2025-10-05 10:22:08,416 [INFO] Evaluating model: LogReg - Tuned (No Weights)
+2025-10-05 10:22:08,876 [INFO] Train Accuracy: 0.8456, Test Accuracy: 0.8310
+2025-10-05 10:22:08,877 [INFO] Train Precision: 0.7665, Test Precision: 0.7350
+2025-10-05 10:22:08,878 [INFO] Train Recall: 0.7294, Test Recall: 0.7209
+2025-10-05 10:22:08,879 [INFO] Train F1: 0.7475, Test F1: 0.7279
+2025-10-05 10:22:08,880 [INFO] Specificity (Test): 0.8813, ROC-AUC (Test): 0.8836
+2025-10-05 10:22:08,881 [INFO] CV F1 Mean: 0.7412 ± 0.0167
+2025-10-05 10:22:10,080 [INFO] Evaluating model: LogReg - Weighted + Tuned
+2025-10-05 10:22:10,787 [INFO] Train Accuracy: 0.8206, Test Accuracy: 0.7995
+2025-10-05 10:22:10,788 [INFO] Train Precision: 0.6684, Test Precision: 0.6395
+2025-10-05 10:22:10,789 [INFO] Train Recall: 0.8480, Test Recall: 0.8262
+2025-10-05 10:22:10,790 [INFO] Train F1: 0.7476, Test F1: 0.7209
+2025-10-05 10:22:10,791 [INFO] Specificity (Test): 0.7873, ROC-AUC (Test): 0.8836
+2025-10-05 10:22:10,792 [INFO] CV F1 Mean: 0.7451 ± 0.0073
+2025-10-05 10:22:12,197 [INFO] Evaluating model: CatBoost - Baseline
+2025-10-05 10:46:50,844 [INFO] Raw data loaded with shape: (10000, 19)
+2025-10-05 10:46:51,199 [INFO] Evaluating model: RandomForest - Baseline
+2025-10-05 10:46:57,519 [INFO] Train Accuracy: 0.9990, Test Accuracy: 0.8000
+2025-10-05 10:46:57,521 [INFO] Train Precision: 0.9984, Test Precision: 0.6947
+2025-10-05 10:46:57,522 [INFO] Train Recall: 0.9984, Test Recall: 0.6459
+2025-10-05 10:46:57,523 [INFO] Train F1: 0.9984, Test F1: 0.6694
+2025-10-05 10:46:57,524 [INFO] Specificity (Test): 0.8704, ROC-AUC (Test): 0.8507
+2025-10-05 10:46:57,524 [INFO] CV F1 Mean: 0.6998 ± 0.0182
+2025-10-05 10:47:01,602 [INFO] Evaluating model: RandomForest - SMOTE (Untuned)
+2025-10-05 10:47:10,919 [INFO] Train Accuracy: 0.9993, Test Accuracy: 0.8080
+2025-10-05 10:47:10,920 [INFO] Train Precision: 0.9985, Test Precision: 0.6969
+2025-10-05 10:47:10,921 [INFO] Train Recall: 1.0000, Test Recall: 0.6858
+2025-10-05 10:47:10,921 [INFO] Train F1: 0.9993, Test F1: 0.6913
+2025-10-05 10:47:10,922 [INFO] Specificity (Test): 0.8638, ROC-AUC (Test): 0.8540
+2025-10-05 10:47:10,923 [INFO] CV F1 Mean: 0.8644 ± 0.0635
+2025-10-05 10:47:35,415 [INFO] Evaluating model: RandomForest - Tuned (No SMOTE)
+2025-10-05 10:48:01,467 [INFO] Train Accuracy: 0.8812, Test Accuracy: 0.8230
+2025-10-05 10:48:01,468 [INFO] Train Precision: 0.8288, Test Precision: 0.7256
+2025-10-05 10:48:01,468 [INFO] Train Recall: 0.7825, Test Recall: 0.7002
+2025-10-05 10:48:01,469 [INFO] Train F1: 0.8050, Test F1: 0.7127
+2025-10-05 10:48:01,470 [INFO] Specificity (Test): 0.8791, ROC-AUC (Test): 0.8725
+2025-10-05 10:48:01,471 [INFO] CV F1 Mean: 0.7320 ± 0.0205
+2025-10-05 10:48:38,115 [INFO] Evaluating model: RandomForest - SMOTE + Tuned
+2025-10-05 10:49:35,002 [INFO] Train Accuracy: 0.9264, Test Accuracy: 0.8210
+2025-10-05 10:49:35,002 [INFO] Train Precision: 0.9248, Test Precision: 0.7029
+2025-10-05 10:49:35,003 [INFO] Train Recall: 0.9283, Test Recall: 0.7432
+2025-10-05 10:49:35,004 [INFO] Train F1: 0.9265, Test F1: 0.7225
+2025-10-05 10:49:35,005 [INFO] Specificity (Test): 0.8565, ROC-AUC (Test): 0.8680
+2025-10-05 10:49:35,006 [INFO] CV F1 Mean: 0.8708 ± 0.0509
+2025-10-05 10:49:36,011 [INFO] Evaluating model: LogReg - Baseline
+2025-10-05 10:49:36,571 [INFO] Train Accuracy: 0.8462, Test Accuracy: 0.8320
+2025-10-05 10:49:36,572 [INFO] Train Precision: 0.7676, Test Precision: 0.7358
+2025-10-05 10:49:36,573 [INFO] Train Recall: 0.7302, Test Recall: 0.7241
+2025-10-05 10:49:36,573 [INFO] Train F1: 0.7485, Test F1: 0.7299
+2025-10-05 10:49:36,574 [INFO] Specificity (Test): 0.8813, ROC-AUC (Test): 0.8836
+2025-10-05 10:49:36,575 [INFO] CV F1 Mean: 0.7407 ± 0.0167
+2025-10-05 10:49:37,136 [INFO] Evaluating model: LogReg - Weighted
+2025-10-05 10:49:37,565 [INFO] Train Accuracy: 0.8206, Test Accuracy: 0.7995
+2025-10-05 10:49:37,566 [INFO] Train Precision: 0.6688, Test Precision: 0.6395
+2025-10-05 10:49:37,567 [INFO] Train Recall: 0.8468, Test Recall: 0.8262
+2025-10-05 10:49:37,568 [INFO] Train F1: 0.7473, Test F1: 0.7209
+2025-10-05 10:49:37,569 [INFO] Specificity (Test): 0.7873, ROC-AUC (Test): 0.8836
+2025-10-05 10:49:37,570 [INFO] CV F1 Mean: 0.7454 ± 0.0076
+2025-10-05 10:49:38,429 [INFO] Evaluating model: LogReg - Tuned (No Weights)
+2025-10-05 10:49:39,100 [INFO] Train Accuracy: 0.8464, Test Accuracy: 0.8320
+2025-10-05 10:49:39,101 [INFO] Train Precision: 0.7675, Test Precision: 0.7358
+2025-10-05 10:49:39,102 [INFO] Train Recall: 0.7310, Test Recall: 0.7241
+2025-10-05 10:49:39,102 [INFO] Train F1: 0.7488, Test F1: 0.7299
+2025-10-05 10:49:39,103 [INFO] Specificity (Test): 0.8813, ROC-AUC (Test): 0.8836
+2025-10-05 10:49:39,104 [INFO] CV F1 Mean: 0.7415 ± 0.0170
+2025-10-05 10:49:40,175 [INFO] Evaluating model: LogReg - Weighted + Tuned
+2025-10-05 10:49:40,541 [INFO] Train Accuracy: 0.8210, Test Accuracy: 0.7995
+2025-10-05 10:49:40,543 [INFO] Train Precision: 0.6691, Test Precision: 0.6395
+2025-10-05 10:49:40,544 [INFO] Train Recall: 0.8480, Test Recall: 0.8262
+2025-10-05 10:49:40,545 [INFO] Train F1: 0.7480, Test F1: 0.7209
+2025-10-05 10:49:40,546 [INFO] Specificity (Test): 0.7873, ROC-AUC (Test): 0.8836
+2025-10-05 10:49:40,547 [INFO] CV F1 Mean: 0.7457 ± 0.0074
+2025-10-05 10:49:41,669 [INFO] Evaluating model: CatBoost - Baseline
+2025-10-05 10:52:08,245 [INFO] Raw data loaded with shape: (10000, 19)
+2025-10-05 10:52:08,541 [INFO] Evaluating model: RandomForest - Baseline
+2025-10-05 10:52:14,045 [INFO] Train Accuracy: 0.9990, Test Accuracy: 0.8000
+2025-10-05 10:52:14,046 [INFO] Train Precision: 0.9984, Test Precision: 0.6947
+2025-10-05 10:52:14,047 [INFO] Train Recall: 0.9984, Test Recall: 0.6459
+2025-10-05 10:52:14,048 [INFO] Train F1: 0.9984, Test F1: 0.6694
+2025-10-05 10:52:14,049 [INFO] Specificity (Test): 0.8704, ROC-AUC (Test): 0.8507
+2025-10-05 10:52:14,050 [INFO] CV F1 Mean: 0.6998 ± 0.0182
+2025-10-05 10:52:17,331 [INFO] Evaluating model: RandomForest - SMOTE (Untuned)
+2025-10-05 10:52:30,268 [INFO] Train Accuracy: 0.9993, Test Accuracy: 0.8080
+2025-10-05 10:52:30,269 [INFO] Train Precision: 0.9985, Test Precision: 0.6969
+2025-10-05 10:52:30,270 [INFO] Train Recall: 1.0000, Test Recall: 0.6858
+2025-10-05 10:52:30,271 [INFO] Train F1: 0.9993, Test F1: 0.6913
+2025-10-05 10:52:30,271 [INFO] Specificity (Test): 0.8638, ROC-AUC (Test): 0.8540
+2025-10-05 10:52:30,272 [INFO] CV F1 Mean: 0.8644 ± 0.0635
+2025-10-05 10:52:55,576 [INFO] Evaluating model: RandomForest - Tuned (No SMOTE)
+2025-10-05 10:53:18,983 [INFO] Train Accuracy: 0.8812, Test Accuracy: 0.8230
+2025-10-05 10:53:18,984 [INFO] Train Precision: 0.8288, Test Precision: 0.7256
+2025-10-05 10:53:18,985 [INFO] Train Recall: 0.7825, Test Recall: 0.7002
+2025-10-05 10:53:18,986 [INFO] Train F1: 0.8050, Test F1: 0.7127
+2025-10-05 10:53:18,987 [INFO] Specificity (Test): 0.8791, ROC-AUC (Test): 0.8725
+2025-10-05 10:53:18,988 [INFO] CV F1 Mean: 0.7320 ± 0.0205
+2025-10-05 10:53:44,780 [INFO] Evaluating model: RandomForest - SMOTE + Tuned
+2025-10-05 10:54:26,199 [INFO] Train Accuracy: 0.9264, Test Accuracy: 0.8210
+2025-10-05 10:54:26,200 [INFO] Train Precision: 0.9248, Test Precision: 0.7029
+2025-10-05 10:54:26,201 [INFO] Train Recall: 0.9283, Test Recall: 0.7432
+2025-10-05 10:54:26,203 [INFO] Train F1: 0.9265, Test F1: 0.7225
+2025-10-05 10:54:26,204 [INFO] Specificity (Test): 0.8565, ROC-AUC (Test): 0.8680
+2025-10-05 10:54:26,204 [INFO] CV F1 Mean: 0.8708 ± 0.0509
+2025-10-05 10:54:27,199 [INFO] Evaluating model: LogReg - Baseline
+2025-10-05 10:54:27,624 [INFO] Train Accuracy: 0.8462, Test Accuracy: 0.8320
+2025-10-05 10:54:27,625 [INFO] Train Precision: 0.7676, Test Precision: 0.7358
+2025-10-05 10:54:27,626 [INFO] Train Recall: 0.7302, Test Recall: 0.7241
+2025-10-05 10:54:27,627 [INFO] Train F1: 0.7485, Test F1: 0.7299
+2025-10-05 10:54:27,628 [INFO] Specificity (Test): 0.8813, ROC-AUC (Test): 0.8836
+2025-10-05 10:54:27,629 [INFO] CV F1 Mean: 0.7407 ± 0.0167
+2025-10-05 10:54:28,062 [INFO] Evaluating model: LogReg - Weighted
+2025-10-05 10:54:28,439 [INFO] Train Accuracy: 0.8206, Test Accuracy: 0.7995
+2025-10-05 10:54:28,440 [INFO] Train Precision: 0.6688, Test Precision: 0.6395
+2025-10-05 10:54:28,441 [INFO] Train Recall: 0.8468, Test Recall: 0.8262
+2025-10-05 10:54:28,442 [INFO] Train F1: 0.7473, Test F1: 0.7209
+2025-10-05 10:54:28,443 [INFO] Specificity (Test): 0.7873, ROC-AUC (Test): 0.8836
+2025-10-05 10:54:28,444 [INFO] CV F1 Mean: 0.7454 ± 0.0076
+2025-10-05 10:54:29,251 [INFO] Evaluating model: LogReg - Tuned (No Weights)
+2025-10-05 10:54:29,742 [INFO] Train Accuracy: 0.8464, Test Accuracy: 0.8320
+2025-10-05 10:54:29,743 [INFO] Train Precision: 0.7675, Test Precision: 0.7358
+2025-10-05 10:54:29,745 [INFO] Train Recall: 0.7310, Test Recall: 0.7241
+2025-10-05 10:54:29,746 [INFO] Train F1: 0.7488, Test F1: 0.7299
+2025-10-05 10:54:29,746 [INFO] Specificity (Test): 0.8813, ROC-AUC (Test): 0.8836
+2025-10-05 10:54:29,747 [INFO] CV F1 Mean: 0.7415 ± 0.0170
+2025-10-05 10:54:30,640 [INFO] Evaluating model: LogReg - Weighted + Tuned
+2025-10-05 10:54:30,971 [INFO] Train Accuracy: 0.8210, Test Accuracy: 0.7995
+2025-10-05 10:54:30,972 [INFO] Train Precision: 0.6691, Test Precision: 0.6395
+2025-10-05 10:54:30,973 [INFO] Train Recall: 0.8480, Test Recall: 0.8262
+2025-10-05 10:54:30,973 [INFO] Train F1: 0.7480, Test F1: 0.7209
+2025-10-05 10:54:30,974 [INFO] Specificity (Test): 0.7873, ROC-AUC (Test): 0.8836
+2025-10-05 10:54:30,975 [INFO] CV F1 Mean: 0.7457 ± 0.0074
+2025-10-05 10:54:31,850 [INFO] Evaluating model: CatBoost - Baseline
+2025-10-05 10:58:56,816 [INFO] Train Accuracy: 0.8650, Test Accuracy: 0.8220
+2025-10-05 10:58:56,816 [INFO] Train Precision: 0.7951, Test Precision: 0.7161
+2025-10-05 10:58:56,817 [INFO] Train Recall: 0.7666, Test Recall: 0.7161
+2025-10-05 10:58:56,817 [INFO] Train F1: 0.7806, Test F1: 0.7161
+2025-10-05 10:58:56,818 [INFO] Specificity (Test): 0.8704, ROC-AUC (Test): 0.8782
+2025-10-05 10:58:56,818 [INFO] CV F1 Mean: 0.7356 ± 0.0189
+2025-10-05 10:58:57,129 [INFO] Evaluating model: CatBoost - Weighted
+2025-10-05 11:03:49,599 [INFO] Train Accuracy: 0.8528, Test Accuracy: 0.8120
+2025-10-05 11:03:49,599 [INFO] Train Precision: 0.7243, Test Precision: 0.6685
+2025-10-05 11:03:49,600 [INFO] Train Recall: 0.8555, Test Recall: 0.7943
+2025-10-05 11:03:49,600 [INFO] Train F1: 0.7845, Test F1: 0.7259
+2025-10-05 11:03:49,600 [INFO] Specificity (Test): 0.8201, ROC-AUC (Test): 0.8802
+2025-10-05 11:03:49,601 [INFO] CV F1 Mean: 0.7448 ± 0.0109
+2025-10-05 11:09:36,848 [INFO] Evaluating model: CatBoost - Tuned (no weights)
+2025-10-05 11:11:03,342 [INFO] Train Accuracy: 0.8440, Test Accuracy: 0.8280
+2025-10-05 11:11:03,343 [INFO] Train Precision: 0.7603, Test Precision: 0.7293
+2025-10-05 11:11:03,343 [INFO] Train Recall: 0.7330, Test Recall: 0.7177
+2025-10-05 11:11:03,343 [INFO] Train F1: 0.7464, Test F1: 0.7235
+2025-10-05 11:11:03,343 [INFO] Specificity (Test): 0.8784, ROC-AUC (Test): 0.8812
+2025-10-05 11:11:03,344 [INFO] CV F1 Mean: 0.7383 ± 0.0239
+2025-10-05 11:15:50,542 [INFO] Evaluating model: CatBoost - Weighted + Tuned
+2025-10-05 11:17:15,982 [INFO] Train Accuracy: 0.8306, Test Accuracy: 0.8145
+2025-10-05 11:17:15,983 [INFO] Train Precision: 0.6928, Test Precision: 0.6671
+2025-10-05 11:17:15,984 [INFO] Train Recall: 0.8252, Test Recall: 0.8150
+2025-10-05 11:17:15,984 [INFO] Train F1: 0.7532, Test F1: 0.7337
+2025-10-05 11:17:15,984 [INFO] Specificity (Test): 0.8143, ROC-AUC (Test): 0.8813
+2025-10-05 11:17:15,985 [INFO] CV F1 Mean: 0.7497 ± 0.0088
+2025-10-05 12:06:22,045 [INFO] Raw data loaded with shape: (10000, 19)
+2025-10-05 12:06:22,281 [INFO] Evaluating model: RandomForest - Baseline
+2025-10-05 12:06:26,209 [INFO] Train Accuracy: 0.9990, Test Accuracy: 0.8000
+2025-10-05 12:06:26,210 [INFO] Train Precision: 0.9984, Test Precision: 0.6947
+2025-10-05 12:06:26,210 [INFO] Train Recall: 0.9984, Test Recall: 0.6459
+2025-10-05 12:06:26,211 [INFO] Train F1: 0.9984, Test F1: 0.6694
+2025-10-05 12:06:26,212 [INFO] Specificity (Test): 0.8704, ROC-AUC (Test): 0.8507
+2025-10-05 12:06:26,212 [INFO] CV F1 Mean: 0.6998 ± 0.0182
+2025-10-05 12:06:29,109 [INFO] Evaluating model: RandomForest - SMOTE (Untuned)
+2025-10-05 12:06:34,668 [INFO] Train Accuracy: 0.9993, Test Accuracy: 0.8080
+2025-10-05 12:06:34,668 [INFO] Train Precision: 0.9985, Test Precision: 0.6969
+2025-10-05 12:06:34,669 [INFO] Train Recall: 1.0000, Test Recall: 0.6858
+2025-10-05 12:06:34,669 [INFO] Train F1: 0.9993, Test F1: 0.6913
+2025-10-05 12:06:34,669 [INFO] Specificity (Test): 0.8638, ROC-AUC (Test): 0.8540
+2025-10-05 12:06:34,670 [INFO] CV F1 Mean: 0.8644 ± 0.0635
+2025-10-05 12:20:15,437 [INFO] Script started. Paths and directories prepared.
+2025-10-05 12:20:15,439 [INFO] Loading raw data from Car_Insurance_Claim.csv
+2025-10-05 12:20:15,498 [INFO] Raw data loaded with shape: (10000, 19)
+2025-10-05 12:20:15,499 [INFO] Generating quick report for Raw Dataset
+2025-10-05 12:20:15,567 [INFO] Quick EDA report completed.
+2025-10-05 12:20:15,568 [INFO] Performing train/test split (stratified)
+2025-10-05 12:20:15,587 [INFO] Train shape: (8000, 18), Test shape: (2000, 18)
+2025-10-05 12:20:15,589 [INFO] Kept X_train_raw copy for visualization comparisons.
+2025-10-05 12:20:15,589 [INFO] Cleaning column names (strip/lower/underscores)
+2025-10-05 12:20:15,592 [INFO] Column names cleaned. Sample columns: ['id', 'age', 'gender', 'race', 'driving_experience', 'education', 'income', 'credit_score', 'vehicle_ownership', 'vehicle_year']
+2025-10-05 12:20:15,634 [INFO] Standardized 8 categorical columns: ['age', 'gender', 'race', 'driving_experience', 'education', 'income', 'vehicle_year', 'vehicle_type']
+2025-10-05 12:20:15,638 [INFO] Dropped columns: ['id', 'race', 'postal_code']
+2025-10-05 12:20:15,670 [INFO] Applied IQR clipping to numeric columns: ['credit_score', 'vehicle_ownership', 'married', 'children', 'annual_mileage', 'speeding_violations', 'duis', 'past_accidents']
+2025-10-05 12:20:15,671 [INFO] Imputing missing values: median for numeric, most_frequent for categorical
+2025-10-05 12:20:15,723 [INFO] Imputation complete. Numeric cols: ['credit_score', 'vehicle_ownership', 'married', 'children', 'annual_mileage', 'speeding_violations', 'duis', 'past_accidents']; Categorical cols: ['age', 'gender', 'driving_experience', 'education', 'income', 'vehicle_year', 'vehicle_type']
+2025-10-05 12:20:15,734 [INFO] Binary columns cleaned: married/children as 'yes'/'no', vehicle_ownership as numeric 0/1
+2025-10-05 12:20:15,744 [INFO] Created risk_score and dropped ['speeding_violations', 'duis', 'past_accidents']
+2025-10-05 12:20:15,750 [INFO] CatBoost categorical features: ['age', 'gender', 'vehicle_type', 'driving_experience', 'education', 'income', 'vehicle_year']
+2025-10-05 12:20:15,751 [INFO] CatBoost numeric features: ['credit_score', 'vehicle_ownership', 'married', 'children', 'annual_mileage', 'risk_score']
+2025-10-05 12:20:15,755 [INFO] Auto-detected categorical cols for encoding: ['age', 'gender', 'driving_experience', 'education', 'income', 'vehicle_year', 'married', 'children', 'vehicle_type']
+2025-10-05 12:20:15,755 [INFO] Auto-detected numeric cols: ['credit_score', 'vehicle_ownership', 'annual_mileage', 'risk_score']
+2025-10-05 12:20:15,803 [INFO] Encoding complete. X_train_encoded shape: (8000, 20), X_test_encoded shape: (2000, 20)
+2025-10-05 12:20:15,807 [INFO] Saved OneHotEncoder to saved_models/onehot_encoder.pkl
+2025-10-05 12:20:15,808 [INFO] Starting Random Forest experiments
+2025-10-05 12:20:15,817 [INFO] Running RandomForest - Baseline
+2025-10-05 12:20:15,819 [INFO] Evaluating model: RandomForest - Baseline
+2025-10-05 12:20:15,819 [INFO] Training model: RandomForest - Baseline
+2025-10-05 12:20:16,528 [INFO] Training complete for: RandomForest - Baseline
+2025-10-05 12:20:20,065 [INFO] Metrics for RandomForest - Baseline: Train F1=0.9984 Test F1=0.6694 ROC-AUC=0.8507
+2025-10-05 12:20:20,302 [INFO] Saved confusion matrix to plots\RandomForest_-_Baseline\RandomForest - Baseline_confusion_matrix.png
+2025-10-05 12:20:20,444 [INFO] Saved ROC curve to plots\RandomForest_-_Baseline\RandomForest - Baseline_roc_curve.png
+2025-10-05 12:20:20,450 [INFO] Saved best result to results\RandomForest_-_Baseline_best.csv
+2025-10-05 12:20:20,451 [INFO] Running RandomForest - SMOTE (Untuned)
+2025-10-05 12:20:22,883 [INFO] Evaluating model: RandomForest - SMOTE (Untuned)
+2025-10-05 12:20:22,884 [INFO] Training model: RandomForest - SMOTE (Untuned)
+2025-10-05 12:20:23,998 [INFO] Training complete for: RandomForest - SMOTE (Untuned)
+2025-10-05 12:20:28,734 [INFO] Metrics for RandomForest - SMOTE (Untuned): Train F1=0.9993 Test F1=0.6913 ROC-AUC=0.8566
+2025-10-05 12:20:28,861 [INFO] Saved confusion matrix to plots\RandomForest_-_SMOTE_(Untuned)\RandomForest - SMOTE (Untuned)_confusion_matrix.png
+2025-10-05 12:20:28,983 [INFO] Saved ROC curve to plots\RandomForest_-_SMOTE_(Untuned)\RandomForest - SMOTE (Untuned)_roc_curve.png
+2025-10-05 12:20:28,988 [INFO] Saved best result to results\RandomForest_-_SMOTE_(Untuned)_best.csv
+2025-10-05 12:20:28,989 [INFO] Running RandomForest - Tuned (No SMOTE)
+2025-10-05 12:20:49,622 [INFO] RandomForest tuned best params: {'n_estimators': 500, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_depth': 20}
+2025-10-05 12:20:49,622 [INFO] Evaluating model: RandomForest - Tuned (No SMOTE)
+2025-10-05 12:20:49,623 [INFO] Training model: RandomForest - Tuned (No SMOTE)
+2025-10-05 12:20:52,290 [INFO] Training complete for: RandomForest - Tuned (No SMOTE)
+2025-10-05 12:21:03,763 [INFO] Metrics for RandomForest - Tuned (No SMOTE): Train F1=0.8050 Test F1=0.7127 ROC-AUC=0.8725
+2025-10-05 12:21:03,962 [INFO] Saved confusion matrix to plots\RandomForest_-_Tuned_(No_SMOTE)\RandomForest - Tuned (No SMOTE)_confusion_matrix.png
+2025-10-05 12:21:04,121 [INFO] Saved ROC curve to plots\RandomForest_-_Tuned_(No_SMOTE)\RandomForest - Tuned (No SMOTE)_roc_curve.png
+2025-10-05 12:21:04,124 [INFO] Saved best result to results\RandomForest_-_Tuned_(No_SMOTE)_best.csv
+2025-10-05 12:21:04,128 [INFO] Saved best params to results\RandomForest_-_Tuned_(No_SMOTE)_best_params.txt
+2025-10-05 12:21:04,128 [INFO] Running RandomForest - SMOTE + Tuned
+2025-10-05 12:21:22,165 [INFO] RandomForest SMOTE tuned best params: {'n_estimators': 500, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_depth': 20}
+2025-10-05 12:21:22,166 [INFO] Evaluating model: RandomForest - SMOTE + Tuned
+2025-10-05 12:21:22,166 [INFO] Training model: RandomForest - SMOTE + Tuned
+2025-10-05 12:21:26,417 [INFO] Training complete for: RandomForest - SMOTE + Tuned
+2025-10-05 12:21:45,673 [INFO] Metrics for RandomForest - SMOTE + Tuned: Train F1=0.9279 Test F1=0.7226 ROC-AUC=0.8691
+2025-10-05 12:21:45,821 [INFO] Saved confusion matrix to plots\RandomForest_-_SMOTE_+_Tuned\RandomForest - SMOTE + Tuned_confusion_matrix.png
+2025-10-05 12:21:45,955 [INFO] Saved ROC curve to plots\RandomForest_-_SMOTE_+_Tuned\RandomForest - SMOTE + Tuned_roc_curve.png
+2025-10-05 12:21:45,958 [INFO] Saved best result to results\RandomForest_-_SMOTE_+_Tuned_best.csv
+2025-10-05 12:21:45,960 [INFO] Saved best params to results\RandomForest_-_SMOTE_+_Tuned_best_params.txt
+2025-10-05 12:21:45,964 [INFO] Saved RandomForest results to results\RandomForest_results.csv
+2025-10-05 12:21:45,964 [INFO] Starting Logistic Regression experiments
+2025-10-05 12:21:45,967 [INFO] Scaling numeric features for Logistic Regression
+2025-10-05 12:21:45,985 [INFO] Saved scaler to saved_models/logreg_scaler.pkl
+2025-10-05 12:21:45,985 [INFO] Running LogReg - Baseline
+2025-10-05 12:21:45,985 [INFO] Evaluating model: LogReg - Baseline
+2025-10-05 12:21:45,986 [INFO] Training model: LogReg - Baseline
+2025-10-05 12:21:46,039 [INFO] Training complete for: LogReg - Baseline
+2025-10-05 12:21:46,255 [INFO] Metrics for LogReg - Baseline: Train F1=0.7485 Test F1=0.7299 ROC-AUC=0.8836
+2025-10-05 12:21:46,426 [INFO] Saved confusion matrix to plots\LogReg_-_Baseline\LogReg - Baseline_confusion_matrix.png
+2025-10-05 12:21:46,552 [INFO] Saved ROC curve to plots\LogReg_-_Baseline\LogReg - Baseline_roc_curve.png
+2025-10-05 12:21:46,556 [INFO] Saved best result to results\LogReg_-_Baseline_best.csv
+2025-10-05 12:21:46,556 [INFO] Running LogReg - Weighted
+2025-10-05 12:21:46,556 [INFO] Evaluating model: LogReg - Weighted
+2025-10-05 12:21:46,557 [INFO] Training model: LogReg - Weighted
+2025-10-05 12:21:46,607 [INFO] Training complete for: LogReg - Weighted
+2025-10-05 12:21:46,838 [INFO] Metrics for LogReg - Weighted: Train F1=0.7473 Test F1=0.7209 ROC-AUC=0.8836
+2025-10-05 12:21:46,990 [INFO] Saved confusion matrix to plots\LogReg_-_Weighted\LogReg - Weighted_confusion_matrix.png
+2025-10-05 12:21:47,136 [INFO] Saved ROC curve to plots\LogReg_-_Weighted\LogReg - Weighted_roc_curve.png
+2025-10-05 12:21:47,140 [INFO] Saved best result to results\LogReg_-_Weighted_best.csv
+2025-10-05 12:21:47,140 [INFO] Running LogReg - Tuned (No Weights)
+2025-10-05 12:21:47,471 [INFO] LogReg tuned best params: {'solver': 'saga', 'penalty': None, 'C': 10}
+2025-10-05 12:21:47,472 [INFO] Evaluating model: LogReg - Tuned (No Weights)
+2025-10-05 12:21:47,472 [INFO] Training model: LogReg - Tuned (No Weights)
+2025-10-05 12:21:47,541 [INFO] Training complete for: LogReg - Tuned (No Weights)
+2025-10-05 12:21:47,858 [INFO] Metrics for LogReg - Tuned (No Weights): Train F1=0.7488 Test F1=0.7299 ROC-AUC=0.8836
+2025-10-05 12:21:48,043 [INFO] Saved confusion matrix to plots\LogReg_-_Tuned_(No_Weights)\LogReg - Tuned (No Weights)_confusion_matrix.png
+2025-10-05 12:21:48,225 [INFO] Saved ROC curve to plots\LogReg_-_Tuned_(No_Weights)\LogReg - Tuned (No Weights)_roc_curve.png
+2025-10-05 12:21:48,229 [INFO] Saved best result to results\LogReg_-_Tuned_(No_Weights)_best.csv
+2025-10-05 12:21:48,230 [INFO] Saved best params to results\LogReg_-_Tuned_(No_Weights)_best_params.txt
+2025-10-05 12:21:48,231 [INFO] Running LogReg - Weighted + Tuned
+2025-10-05 12:21:48,526 [INFO] LogReg weighted tuned best params: {'solver': 'lbfgs', 'penalty': 'l2', 'C': 10}
+2025-10-05 12:21:48,526 [INFO] Evaluating model: LogReg - Weighted + Tuned
+2025-10-05 12:21:48,526 [INFO] Training model: LogReg - Weighted + Tuned
+2025-10-05 12:21:48,558 [INFO] Training complete for: LogReg - Weighted + Tuned
+2025-10-05 12:21:48,762 [INFO] Metrics for LogReg - Weighted + Tuned: Train F1=0.7480 Test F1=0.7209 ROC-AUC=0.8836
+2025-10-05 12:21:48,965 [INFO] Saved confusion matrix to plots\LogReg_-_Weighted_+_Tuned\LogReg - Weighted + Tuned_confusion_matrix.png
+2025-10-05 12:21:49,169 [INFO] Saved ROC curve to plots\LogReg_-_Weighted_+_Tuned\LogReg - Weighted + Tuned_roc_curve.png
+2025-10-05 12:21:49,173 [INFO] Saved best result to results\LogReg_-_Weighted_+_Tuned_best.csv
+2025-10-05 12:21:49,174 [INFO] Saved best params to results\LogReg_-_Weighted_+_Tuned_best_params.txt
+2025-10-05 12:21:49,178 [INFO] Saved Logistic Regression results to results\LogReg_results.csv
+2025-10-05 12:21:49,179 [INFO] Starting CatBoost experiments
+2025-10-05 12:21:49,179 [INFO] CatBoost categorical features (final): ['age', 'gender', 'vehicle_type', 'driving_experience', 'education', 'income', 'vehicle_year']
+2025-10-05 12:21:49,180 [INFO] Running CatBoost - Baseline
+2025-10-05 12:21:49,184 [INFO] Evaluating model: CatBoost - Baseline
+2025-10-05 12:21:49,185 [INFO] Training model: CatBoost - Baseline
+2025-10-05 12:37:38,556 [INFO] Raw data loaded with shape: (10000, 19)
+2025-10-05 12:37:38,777 [INFO] Evaluating model: RandomForest - Baseline
+2025-10-05 12:37:42,826 [INFO] Train Accuracy: 0.9990, Test Accuracy: 0.8000
+2025-10-05 12:37:42,827 [INFO] Train Precision: 0.9984, Test Precision: 0.6947
+2025-10-05 12:37:42,827 [INFO] Train Recall: 0.9984, Test Recall: 0.6459
+2025-10-05 12:37:42,828 [INFO] Train F1: 0.9984, Test F1: 0.6694
+2025-10-05 12:37:42,828 [INFO] Specificity (Test): 0.8704, ROC-AUC (Test): 0.8507
+2025-10-05 12:37:42,828 [INFO] CV F1 Mean: 0.6998 ± 0.0182
+2025-10-05 12:37:45,951 [INFO] Evaluating model: RandomForest - SMOTE (Untuned)
+2025-10-05 12:37:51,835 [INFO] Train Accuracy: 0.9993, Test Accuracy: 0.8080
+2025-10-05 12:37:51,835 [INFO] Train Precision: 0.9985, Test Precision: 0.6969
+2025-10-05 12:37:51,836 [INFO] Train Recall: 1.0000, Test Recall: 0.6858
+2025-10-05 12:37:51,836 [INFO] Train F1: 0.9993, Test F1: 0.6913
+2025-10-05 12:37:51,836 [INFO] Specificity (Test): 0.8638, ROC-AUC (Test): 0.8540
+2025-10-05 12:37:51,837 [INFO] CV F1 Mean: 0.8644 ± 0.0635
+2025-10-05 12:38:08,560 [INFO] Evaluating model: RandomForest - Tuned (No SMOTE)
+2025-10-05 12:38:25,435 [INFO] Train Accuracy: 0.8812, Test Accuracy: 0.8230
+2025-10-05 12:38:25,435 [INFO] Train Precision: 0.8288, Test Precision: 0.7256
+2025-10-05 12:38:25,436 [INFO] Train Recall: 0.7825, Test Recall: 0.7002
+2025-10-05 12:38:25,436 [INFO] Train F1: 0.8050, Test F1: 0.7127
+2025-10-05 12:38:25,437 [INFO] Specificity (Test): 0.8791, ROC-AUC (Test): 0.8725
+2025-10-05 12:38:25,437 [INFO] CV F1 Mean: 0.7320 ± 0.0205
+2025-10-05 12:38:45,114 [INFO] Evaluating model: RandomForest - SMOTE + Tuned
+2025-10-05 12:39:08,116 [INFO] Train Accuracy: 0.9264, Test Accuracy: 0.8210
+2025-10-05 12:39:08,117 [INFO] Train Precision: 0.9248, Test Precision: 0.7029
+2025-10-05 12:39:08,117 [INFO] Train Recall: 0.9283, Test Recall: 0.7432
+2025-10-05 12:39:08,118 [INFO] Train F1: 0.9265, Test F1: 0.7225
+2025-10-05 12:39:08,119 [INFO] Specificity (Test): 0.8565, ROC-AUC (Test): 0.8680
+2025-10-05 12:39:08,119 [INFO] CV F1 Mean: 0.8708 ± 0.0509
+2025-10-05 12:39:08,704 [INFO] Evaluating model: LogReg - Baseline
+2025-10-05 12:39:08,977 [INFO] Train Accuracy: 0.8462, Test Accuracy: 0.8320
+2025-10-05 12:39:08,978 [INFO] Train Precision: 0.7676, Test Precision: 0.7358
+2025-10-05 12:39:08,979 [INFO] Train Recall: 0.7302, Test Recall: 0.7241
+2025-10-05 12:39:08,979 [INFO] Train F1: 0.7485, Test F1: 0.7299
+2025-10-05 12:39:08,980 [INFO] Specificity (Test): 0.8813, ROC-AUC (Test): 0.8836
+2025-10-05 12:39:08,980 [INFO] CV F1 Mean: 0.7407 ± 0.0167
+2025-10-05 12:39:09,248 [INFO] Evaluating model: LogReg - Weighted
+2025-10-05 12:39:09,516 [INFO] Train Accuracy: 0.8206, Test Accuracy: 0.7995
+2025-10-05 12:39:09,517 [INFO] Train Precision: 0.6688, Test Precision: 0.6395
+2025-10-05 12:39:09,517 [INFO] Train Recall: 0.8468, Test Recall: 0.8262
+2025-10-05 12:39:09,518 [INFO] Train F1: 0.7473, Test F1: 0.7209
+2025-10-05 12:39:09,518 [INFO] Specificity (Test): 0.7873, ROC-AUC (Test): 0.8836
+2025-10-05 12:39:09,519 [INFO] CV F1 Mean: 0.7454 ± 0.0076
+2025-10-05 12:39:10,055 [INFO] Evaluating model: LogReg - Tuned (No Weights)
+2025-10-05 12:39:10,389 [INFO] Train Accuracy: 0.8464, Test Accuracy: 0.8320
+2025-10-05 12:39:10,390 [INFO] Train Precision: 0.7675, Test Precision: 0.7358
+2025-10-05 12:39:10,390 [INFO] Train Recall: 0.7310, Test Recall: 0.7241
+2025-10-05 12:39:10,391 [INFO] Train F1: 0.7488, Test F1: 0.7299
+2025-10-05 12:39:10,391 [INFO] Specificity (Test): 0.8813, ROC-AUC (Test): 0.8836
+2025-10-05 12:39:10,392 [INFO] CV F1 Mean: 0.7415 ± 0.0170
+2025-10-05 12:39:10,929 [INFO] Evaluating model: LogReg - Weighted + Tuned
+2025-10-05 12:39:11,118 [INFO] Train Accuracy: 0.8210, Test Accuracy: 0.7995
+2025-10-05 12:39:11,119 [INFO] Train Precision: 0.6691, Test Precision: 0.6395
+2025-10-05 12:39:11,119 [INFO] Train Recall: 0.8480, Test Recall: 0.8262
+2025-10-05 12:39:11,120 [INFO] Train F1: 0.7480, Test F1: 0.7209
+2025-10-05 12:39:11,120 [INFO] Specificity (Test): 0.7873, ROC-AUC (Test): 0.8836
+2025-10-05 12:39:11,121 [INFO] CV F1 Mean: 0.7457 ± 0.0074
+2025-10-05 12:39:11,696 [INFO] Evaluating model: CatBoost - Baseline
+2025-10-05 12:43:14,743 [INFO] Train Accuracy: 0.8650, Test Accuracy: 0.8220
+2025-10-05 12:43:14,744 [INFO] Train Precision: 0.7951, Test Precision: 0.7161
+2025-10-05 12:43:14,744 [INFO] Train Recall: 0.7666, Test Recall: 0.7161
+2025-10-05 12:43:14,744 [INFO] Train F1: 0.7806, Test F1: 0.7161
+2025-10-05 12:43:14,745 [INFO] Specificity (Test): 0.8704, ROC-AUC (Test): 0.8782
+2025-10-05 12:43:14,745 [INFO] CV F1 Mean: 0.7356 ± 0.0189
+2025-10-05 12:43:15,108 [INFO] Evaluating model: CatBoost - Weighted
+2025-10-05 12:47:11,801 [INFO] Train Accuracy: 0.8528, Test Accuracy: 0.8120
+2025-10-05 12:47:11,801 [INFO] Train Precision: 0.7243, Test Precision: 0.6685
+2025-10-05 12:47:11,802 [INFO] Train Recall: 0.8555, Test Recall: 0.7943
+2025-10-05 12:47:11,802 [INFO] Train F1: 0.7845, Test F1: 0.7259
+2025-10-05 12:47:11,803 [INFO] Specificity (Test): 0.8201, ROC-AUC (Test): 0.8802
+2025-10-05 12:47:11,803 [INFO] CV F1 Mean: 0.7448 ± 0.0109
+2025-10-05 12:52:12,947 [INFO] Evaluating model: CatBoost - Tuned (no weights)
+2025-10-05 13:26:52,366 [INFO] Train Accuracy: 0.8440, Test Accuracy: 0.8280
+2025-10-05 13:26:52,371 [INFO] Train Precision: 0.7603, Test Precision: 0.7293
+2025-10-05 13:26:52,371 [INFO] Train Recall: 0.7330, Test Recall: 0.7177
+2025-10-05 13:26:52,371 [INFO] Train F1: 0.7464, Test F1: 0.7235
+2025-10-05 13:26:52,372 [INFO] Specificity (Test): 0.8784, ROC-AUC (Test): 0.8812
+2025-10-05 13:26:52,373 [INFO] CV F1 Mean: 0.7383 ± 0.0239
+2025-10-05 13:29:16,874 [INFO] Raw data loaded with shape: (10000, 19)
+2025-10-05 13:29:17,122 [INFO] Evaluating model: RandomForest - Baseline
+2025-10-05 13:29:20,813 [INFO] Train Accuracy: 0.9990, Test Accuracy: 0.8000
+2025-10-05 13:29:20,814 [INFO] Train Precision: 0.9984, Test Precision: 0.6947
+2025-10-05 13:29:20,815 [INFO] Train Recall: 0.9984, Test Recall: 0.6459
+2025-10-05 13:29:20,815 [INFO] Train F1: 0.9984, Test F1: 0.6694
+2025-10-05 13:29:20,816 [INFO] Specificity (Test): 0.8704, ROC-AUC (Test): 0.8507
+2025-10-05 13:29:20,816 [INFO] CV F1 Mean: 0.6998 ± 0.0182
+2025-10-05 13:29:23,577 [INFO] Evaluating model: RandomForest - SMOTE (Untuned)
+2025-10-05 13:29:28,799 [INFO] Train Accuracy: 0.9993, Test Accuracy: 0.8080
+2025-10-05 13:29:28,800 [INFO] Train Precision: 0.9985, Test Precision: 0.6969
+2025-10-05 13:29:28,800 [INFO] Train Recall: 1.0000, Test Recall: 0.6858
+2025-10-05 13:29:28,801 [INFO] Train F1: 0.9993, Test F1: 0.6913
+2025-10-05 13:29:28,802 [INFO] Specificity (Test): 0.8638, ROC-AUC (Test): 0.8540
+2025-10-05 13:29:28,802 [INFO] CV F1 Mean: 0.8644 ± 0.0635
+2025-10-05 13:29:44,697 [INFO] Evaluating model: RandomForest - Tuned (No SMOTE)
+2025-10-05 13:29:58,665 [INFO] Train Accuracy: 0.8812, Test Accuracy: 0.8230
+2025-10-05 13:29:58,665 [INFO] Train Precision: 0.8288, Test Precision: 0.7256
+2025-10-05 13:29:58,666 [INFO] Train Recall: 0.7825, Test Recall: 0.7002
+2025-10-05 13:29:58,666 [INFO] Train F1: 0.8050, Test F1: 0.7127
+2025-10-05 13:29:58,667 [INFO] Specificity (Test): 0.8791, ROC-AUC (Test): 0.8725
+2025-10-05 13:29:58,667 [INFO] CV F1 Mean: 0.7320 ± 0.0205
+2025-10-05 13:30:16,635 [INFO] Evaluating model: RandomForest - SMOTE + Tuned
+2025-10-05 13:30:39,572 [INFO] Train Accuracy: 0.9264, Test Accuracy: 0.8210
+2025-10-05 13:30:39,572 [INFO] Train Precision: 0.9248, Test Precision: 0.7029
+2025-10-05 13:30:39,573 [INFO] Train Recall: 0.9283, Test Recall: 0.7432
+2025-10-05 13:30:39,573 [INFO] Train F1: 0.9265, Test F1: 0.7225
+2025-10-05 13:30:39,573 [INFO] Specificity (Test): 0.8565, ROC-AUC (Test): 0.8680
+2025-10-05 13:30:39,574 [INFO] CV F1 Mean: 0.8708 ± 0.0509
+2025-10-05 13:30:40,155 [INFO] Evaluating model: LogReg - Baseline
+2025-10-05 13:30:40,421 [INFO] Train Accuracy: 0.8462, Test Accuracy: 0.8320
+2025-10-05 13:30:40,422 [INFO] Train Precision: 0.7676, Test Precision: 0.7358
+2025-10-05 13:30:40,423 [INFO] Train Recall: 0.7302, Test Recall: 0.7241
+2025-10-05 13:30:40,423 [INFO] Train F1: 0.7485, Test F1: 0.7299
+2025-10-05 13:30:40,424 [INFO] Specificity (Test): 0.8813, ROC-AUC (Test): 0.8836
+2025-10-05 13:30:40,424 [INFO] CV F1 Mean: 0.7407 ± 0.0167
+2025-10-05 13:30:40,698 [INFO] Evaluating model: LogReg - Weighted
+2025-10-05 13:30:40,958 [INFO] Train Accuracy: 0.8206, Test Accuracy: 0.7995
+2025-10-05 13:30:40,959 [INFO] Train Precision: 0.6688, Test Precision: 0.6395
+2025-10-05 13:30:40,960 [INFO] Train Recall: 0.8468, Test Recall: 0.8262
+2025-10-05 13:30:40,960 [INFO] Train F1: 0.7473, Test F1: 0.7209
+2025-10-05 13:30:40,961 [INFO] Specificity (Test): 0.7873, ROC-AUC (Test): 0.8836
+2025-10-05 13:30:40,962 [INFO] CV F1 Mean: 0.7454 ± 0.0076
+2025-10-05 13:30:41,515 [INFO] Evaluating model: LogReg - Tuned (No Weights)
+2025-10-05 13:30:41,788 [INFO] Train Accuracy: 0.8464, Test Accuracy: 0.8320
+2025-10-05 13:30:41,789 [INFO] Train Precision: 0.7675, Test Precision: 0.7358
+2025-10-05 13:30:41,789 [INFO] Train Recall: 0.7310, Test Recall: 0.7241
+2025-10-05 13:30:41,790 [INFO] Train F1: 0.7488, Test F1: 0.7299
+2025-10-05 13:30:41,790 [INFO] Specificity (Test): 0.8813, ROC-AUC (Test): 0.8836
+2025-10-05 13:30:41,791 [INFO] CV F1 Mean: 0.7415 ± 0.0170
+2025-10-05 13:30:42,360 [INFO] Evaluating model: LogReg - Weighted + Tuned
+2025-10-05 13:30:42,557 [INFO] Train Accuracy: 0.8210, Test Accuracy: 0.7995
+2025-10-05 13:30:42,558 [INFO] Train Precision: 0.6691, Test Precision: 0.6395
+2025-10-05 13:30:42,558 [INFO] Train Recall: 0.8480, Test Recall: 0.8262
+2025-10-05 13:30:42,559 [INFO] Train F1: 0.7480, Test F1: 0.7209
+2025-10-05 13:30:42,559 [INFO] Specificity (Test): 0.7873, ROC-AUC (Test): 0.8836
+2025-10-05 13:30:42,560 [INFO] CV F1 Mean: 0.7457 ± 0.0074
+2025-10-05 13:30:43,135 [INFO] Evaluating model: CatBoost - Baseline
+2025-10-05 13:34:36,757 [INFO] Train Accuracy: 0.8650, Test Accuracy: 0.8220
+2025-10-05 13:34:36,757 [INFO] Train Precision: 0.7951, Test Precision: 0.7161
+2025-10-05 13:34:36,758 [INFO] Train Recall: 0.7666, Test Recall: 0.7161
+2025-10-05 13:34:36,758 [INFO] Train F1: 0.7806, Test F1: 0.7161
+2025-10-05 13:34:36,759 [INFO] Specificity (Test): 0.8704, ROC-AUC (Test): 0.8782
+2025-10-05 13:34:36,759 [INFO] CV F1 Mean: 0.7356 ± 0.0189
+2025-10-05 13:34:37,049 [INFO] Evaluating model: CatBoost - Weighted
+2025-10-05 13:38:34,713 [INFO] Train Accuracy: 0.8528, Test Accuracy: 0.8120
+2025-10-05 13:38:34,713 [INFO] Train Precision: 0.7243, Test Precision: 0.6685
+2025-10-05 13:38:34,714 [INFO] Train Recall: 0.8555, Test Recall: 0.7943
+2025-10-05 13:38:34,714 [INFO] Train F1: 0.7845, Test F1: 0.7259
+2025-10-05 13:38:34,714 [INFO] Specificity (Test): 0.8201, ROC-AUC (Test): 0.8802
+2025-10-05 13:38:34,715 [INFO] CV F1 Mean: 0.7448 ± 0.0109
+2025-10-05 13:44:30,218 [INFO] Evaluating model: CatBoost - Tuned (no weights)
+2025-10-05 13:47:07,236 [INFO] Train Accuracy: 0.8440, Test Accuracy: 0.8280
+2025-10-05 13:47:07,238 [INFO] Train Precision: 0.7603, Test Precision: 0.7293
+2025-10-05 13:47:07,240 [INFO] Train Recall: 0.7330, Test Recall: 0.7177
+2025-10-05 13:47:07,241 [INFO] Train F1: 0.7464, Test F1: 0.7235
+2025-10-05 13:47:07,241 [INFO] Specificity (Test): 0.8784, ROC-AUC (Test): 0.8812
+2025-10-05 13:47:07,245 [INFO] CV F1 Mean: 0.7383 ± 0.0239
+2025-10-05 13:54:25,572 [INFO] Evaluating model: CatBoost - Weighted + Tuned
+2025-10-05 13:57:09,133 [INFO] Train Accuracy: 0.8306, Test Accuracy: 0.8145
+2025-10-05 13:57:09,135 [INFO] Train Precision: 0.6928, Test Precision: 0.6671
+2025-10-05 13:57:09,136 [INFO] Train Recall: 0.8252, Test Recall: 0.8150
+2025-10-05 13:57:09,136 [INFO] Train F1: 0.7532, Test F1: 0.7337
+2025-10-05 13:57:09,137 [INFO] Specificity (Test): 0.8143, ROC-AUC (Test): 0.8813
+2025-10-05 13:57:09,140 [INFO] CV F1 Mean: 0.7497 ± 0.0088

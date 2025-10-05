@@ -1,0 +1,47 @@
+[
+    {
+        "Model": "LogReg - Weighted + Tuned",
+        "Train Accuracy": 0.821,
+        "Test Accuracy": 0.7995,
+        "Train Precision": 0.6690806045340051,
+        "Test Precision": 0.6395061728395062,
+        "Train Recall": 0.8479648842777334,
+        "Test Recall": 0.8261562998405104,
+        "Train F1": 0.7479760647659275,
+        "F1 (Test)": 0.720946416144746,
+        "Specificity (Test)": 0.7873270211216314,
+        "ROC-AUC (Test)": 0.883615547509441,
+        "CV F1 Mean": 0.7457379029198565,
+        "CV F1 Std": 0.007396490439434942
+    },
+    {
+        "Model": "RandomForest - SMOTE + Tuned",
+        "Train Accuracy": 0.9263742264288315,
+        "Test Accuracy": 0.821,
+        "Train Precision": 0.9247506799637353,
+        "Test Precision": 0.702865761689291,
+        "Train Recall": 0.9282854022570076,
+        "Test Recall": 0.7432216905901117,
+        "Train F1": 0.9265146698156054,
+        "F1 (Test)": 0.7224806201550388,
+        "Specificity (Test)": 0.8565185724690458,
+        "ROC-AUC (Test)": 0.86801623007396,
+        "CV F1 Mean": 0.8708257348742657,
+        "CV F1 Std": 0.050927030590517064
+    },
+    {
+        "Model": "CatBoost - Weighted + Tuned",
+        "Train Accuracy": 0.830625,
+        "Test Accuracy": 0.8145,
+        "Train Precision": 0.6927973199329983,
+        "Test Precision": 0.6671018276762402,
+        "Train Recall": 0.825219473264166,
+        "Test Recall": 0.8149920255183413,
+        "Train F1": 0.7532325623747951,
+        "F1 (Test)": 0.7336683417085427,
+        "Specificity (Test)": 0.8142753095411508,
+        "ROC-AUC (Test)": 0.8812539857888116,
+        "CV F1 Mean": 0.7496949547934401,
+        "CV F1 Std": 0.008761840493075726
+    }
+]

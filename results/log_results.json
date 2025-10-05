@@ -1,0 +1,62 @@
+[
+    {
+        "Model": "LogReg - Baseline",
+        "Train Accuracy": 0.84625,
+        "Test Accuracy": 0.832,
+        "Train Precision": 0.7676174496644296,
+        "Test Precision": 0.7358184764991896,
+        "Train Recall": 0.7302474062250599,
+        "Test Recall": 0.7240829346092504,
+        "Train F1": 0.7484662576687117,
+        "F1 (Test)": 0.729903536977492,
+        "Specificity (Test)": 0.8812818645302258,
+        "ROC-AUC (Test)": 0.8835748910115453,
+        "CV F1 Mean": 0.740667879111193,
+        "CV F1 Std": 0.01667964500252026
+    },
+    {
+        "Model": "LogReg - Weighted",
+        "Train Accuracy": 0.820625,
+        "Test Accuracy": 0.7995,
+        "Train Precision": 0.6687677277024897,
+        "Test Precision": 0.6395061728395062,
+        "Train Recall": 0.8467677573822825,
+        "Test Recall": 0.8261562998405104,
+        "Train F1": 0.7473146680753654,
+        "F1 (Test)": 0.720946416144746,
+        "Specificity (Test)": 0.7873270211216314,
+        "ROC-AUC (Test)": 0.8835690829404172,
+        "CV F1 Mean": 0.7453791055151634,
+        "CV F1 Std": 0.007574008811694075
+    },
+    {
+        "Model": "LogReg - Tuned (No Weights)",
+        "Train Accuracy": 0.846375,
+        "Test Accuracy": 0.832,
+        "Train Precision": 0.7674905739421869,
+        "Test Precision": 0.7358184764991896,
+        "Train Recall": 0.7310454908220272,
+        "Test Recall": 0.7240829346092504,
+        "Train F1": 0.7488248518291437,
+        "F1 (Test)": 0.729903536977492,
+        "Specificity (Test)": 0.8812818645302258,
+        "ROC-AUC (Test)": 0.8836376181797273,
+        "CV F1 Mean": 0.7415368985827289,
+        "CV F1 Std": 0.016968031757809376
+    },
+    {
+        "Model": "LogReg - Weighted + Tuned",
+        "Train Accuracy": 0.821,
+        "Test Accuracy": 0.7995,
+        "Train Precision": 0.6690806045340051,
+        "Test Precision": 0.6395061728395062,
+        "Train Recall": 0.8479648842777334,
+        "Test Recall": 0.8261562998405104,
+        "Train F1": 0.7479760647659275,
+        "F1 (Test)": 0.720946416144746,
+        "Specificity (Test)": 0.7873270211216314,
+        "ROC-AUC (Test)": 0.883615547509441,
+        "CV F1 Mean": 0.7457379029198565,
+        "CV F1 Std": 0.007396490439434942
+    }
+]

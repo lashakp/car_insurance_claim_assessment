@@ -1,0 +1,2 @@
+2025-10-05 10:10:15,711 [INFO] Logger initialized. All events will be logged here.
+2025-10-05 10:10:15,782 [INFO] Raw data loaded with shape: (10000, 19)
