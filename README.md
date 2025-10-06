@@ -187,7 +187,7 @@ car-insurance-claim-prediction/
 ├── plots/randomforest/              # Random Forest evaluation plots
 ├── plots/logreg/                    # Logistic Regression evaluation plots
 ├── plots/catboost/                  # CatBoost evaluation plots
-├── car-insurance-claim-prediction.py.py                    # Main script
+├── car-insurance-claim-prediction.py # Main script
 └── README.md                        # This file
 
 Installation
