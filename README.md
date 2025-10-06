@@ -82,23 +82,15 @@ Usage
 
 Run the Pipeline:
 
-python car_insurance_pipeline.py
+python car-insurance-claim-prediction.py
 
 This performs:
 Data loading and EDA (saves plots to plots/eda).
 Preprocessing and feature engineering (saves data to saved_data).
 Model training/evaluation (saves models to saved_models, results to results).
 Generates visualizations (saved to plots/{model} and plots/feature_importance).
-
-
-
 Creates leaderboard (saved to plots/leaderboard_comparison_dynamic.png).
-
-
-
 Launches Gradio app (URL provided in console).
-
-
 
 Gradio Interface:
 
